@@ -1,7 +1,7 @@
 from rich import print
 from time import sleep
 
-
+#install rich in Terminal
 
 def type_line(text, letter_delay):
     for char in text:
@@ -32,3 +32,4 @@ def printLyrics():
         type_line(text, delay)
 
 printLyrics()
+
